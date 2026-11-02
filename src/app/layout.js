@@ -19,8 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html
-      lang="fa"
-      dir="rtl"
+      lang="en"
       className={`${inter.variable} ${poppins.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-sans ">{children}</body>
