@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const reviews = [
   { icon: "P", rating: "4.8/5 Rating" },
   { icon: "»", rating: "4.5/5 Rating" },
@@ -13,15 +15,15 @@ export default function Hero() {
         <p className="max-w-150 text-center font-body text-xl text-muted">
           Simplify Your E-commerce Business with OrderEase
         </p>
-        <h1 className="max-w-205 text-center font-sans text-[64px] font-bold text-muted">
+        <h1 className="max-w-[771px] text-center mt-20 leading-21 font-sans text-[64px] font-bold text-muted">
           Why use multiple apps when you can use just one? OrderEase has
         </h1>
         {/* دکمه ها */}
         <div className="flex gap-4 mt-15">
-          <button className="w-46 h-11 rounded-2xl bg-brand text-white">
+          <button className="w-46 h-11 rounded-2xl bg-brand text-white cursor-pointer">
             Try for free
           </button>
-          <button className="w-46 h-11 rounded-2xl bg-brand-soft text-brand">
+          <button className="w-46 h-11 rounded-2xl bg-brand-soft text-brand cursor-pointer">
             See what&apos;s new
           </button>
         </div>
@@ -31,11 +33,19 @@ export default function Hero() {
           <p>2,734 Proposals signed</p>
         </div>
         {/* video */}
-        <div className="relative z-10 mt-6 -mb-79 w-273 rounded-[20px] bg-white p-2.5">
-          <div className="h-135 w-268 rounded-[20px] bg-gray-200" />
+        <div className="relative z-10 mt-6 -mb-79 w-273 p-2.5 rounded-[20px] bg-white">
+          <Image
+            src="/images/Figma/Videos-Hero.png"
+            alt="Person working with a laptop and calculator"
+            width={1072}
+            height={540}
+            className="h-135 rounded-[20px] object-cover"
+          />
         </div>
       </div>
-      <div className="mt-89 flex justify-center gap-15">
+
+      {/* Reviews */}
+      <div className="mt-100 flex justify-center gap-15">
         {reviews.map((item) => (
           <div
             key={item.rating + item.icon}
