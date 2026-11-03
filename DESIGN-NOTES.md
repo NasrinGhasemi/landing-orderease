@@ -11,7 +11,7 @@
 | ------------------------- | ------------------ | ----------------- |
 | عنوان‌ها                  | Black              | #1C1934           |
 | متن‌های خاکستری           | Gray               | #5E5D6D           |
-| لینک ها                   | White              | #FFFFFF           |
+| لینک ها                   | Gray               | #5E5D6D           |
 | ستاره ها                  | Accents/Yellow     | #FFCC00           |
 | Main Background           | White              | #FFFFFF           |
 | Background - Headlne      | Purple             | #6F47EB           |
@@ -56,8 +56,14 @@
 ## Structure (ساختار هر بخش)
 
 1. Header:
-   ساختار: لوگو چپ، ۵ لینک وسط، ۲ دکمه راست
-   Nav: Poppins Regular، رنگ Gray (#5E5D6D)
-   ارتفاع هدر: 95px
-   فاصله بین لینک‌ها: 28px
-   محتوا: 1368px با حاشیه 36px
+   - ساختار: لوگو چپ، ۵ لینک وسط، ۲ دکمه راست
+   - Nav: Poppins Regular، رنگ Gray (#5E5D6D)
+   - ارتفاع هدر: 95px
+   - فاصله بین لینک‌ها: 28px
+   - محتوا: 1368px با حاشیه 36px
+
+2. ## Hero:
+   - دو دکمه وسط صفحه، ویدئو، متن (H1, paragraph)
+   - Fonts: Inter, Poppins
+   - Buttons: 184\*44 , gap-4
+   - video: 1072\*540 , border-radius 20, padding 20
