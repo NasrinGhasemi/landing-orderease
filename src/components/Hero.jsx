@@ -20,10 +20,16 @@ export default function Hero() {
         </h1>
         {/* دکمه ها */}
         <div className="flex gap-4 mt-15">
-          <button className="w-46 h-11 rounded-2xl bg-brand text-white cursor-pointer">
+          <button
+            type="button"
+            className="w-46 h-11 rounded-2xl bg-brand text-white cursor-pointer"
+          >
             Try for free
           </button>
-          <button className="w-46 h-11 rounded-2xl bg-brand-soft text-brand cursor-pointer">
+          <button
+            type="button"
+            className="w-46 h-11 rounded-2xl bg-brand-soft text-brand cursor-pointer"
+          >
             See what&apos;s new
           </button>
         </div>
@@ -37,9 +43,10 @@ export default function Hero() {
           <Image
             src="/images/Figma/Videos-Hero.png"
             alt="Person working with a laptop and calculator"
+            loading="eager"
             width={1072}
             height={540}
-            className="h-135 rounded-[20px] object-cover"
+            className="rounded-[20px] object-cover"
           />
         </div>
       </div>
