@@ -39,14 +39,14 @@ export default function Hero() {
           <p>2,734 Proposals signed</p>
         </div>
         {/* video */}
-        <div className="relative z-10 mt-6 -mb-79 w-273 p-2.5 rounded-[20px] bg-white">
+        <div className="relative z-10 mt-6 -mb-79 w-[1082px]">
           <Image
             src="/images/Figma/Videos-Hero.png"
             alt="Person working with a laptop and calculator"
             loading="eager"
-            width={1072}
-            height={540}
-            className="rounded-[20px] object-cover"
+            width={1082}
+            height={550}
+            className="object-cover"
           />
         </div>
       </div>
