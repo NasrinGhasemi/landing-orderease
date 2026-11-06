@@ -46,7 +46,7 @@ export default function Payment() {
             src="/images/Figma/Frame46.svg"
             alt=""
             width={140}
-            height={138}
+            height={139}
             className="absolute top-0 left-0"
           />
           <Image
@@ -59,8 +59,8 @@ export default function Payment() {
           <Image
             src="/images/Figma/Illustrations-Section1.svg"
             alt=""
-            width={305}
-            height={147}
+            width={349}
+            height={192}
             className="absolute top-[357px] left-[250px]"
           />
         </div>
